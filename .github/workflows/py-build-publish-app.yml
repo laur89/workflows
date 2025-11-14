@@ -8,9 +8,9 @@ on:
       #config-path:
         #required: true
         #type: string
-    #secrets:
-      #token:
-        #required: true
+    secrets:
+      APP_KEY:
+        required: true
 
 #permissions:
   #contents: write
